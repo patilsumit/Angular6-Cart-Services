@@ -1,0 +1,44 @@
+
+header
+{
+    background-image: linear-gradient(to top,pink,rgba(50,255,180,0.8));
+    height:75px;
+    margin-top:-20px;  
+}
+header h1
+{
+   text-align:center;
+   line-height:70px;    
+   font-size:3em; 
+   color: sienna;
+   font-family: 'Courier New', Courier, monospace;
+}
+table
+{
+    border-collapse: collapse;
+    width:50%;
+    margin-top:30px;
+    margin-left:10cm;
+}
+td
+{
+  padding:30px;  
+  text-align:center;
+  font-weight:lighter;
+  font-size:0.5cm; 
+  
+}
+tr:nth-child(even)
+{
+    background-color:aqua;
+}
+tr:nth-child(odd)
+{
+    background-color:saddlebrown;
+}
+tr th
+{
+    background-color: crimson;
+    font-size:1cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
